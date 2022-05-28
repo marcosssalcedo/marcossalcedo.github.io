@@ -23,6 +23,16 @@ header{
     margin: auto;
 }
 
+.Titulosdeimagenes{
+    padding: 10px;
+    font-size: 10px;
+    max-width: 600px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: white;
+}
+
+
 .ROPAYACE{
     margin-right: 200px;
     margin-bottom: 100px;
@@ -42,11 +52,15 @@ aside .ropa{
     border-radius: 5px;
     overflow: hidden;
     transition: all 500ms ease;
-    margin-left: 200px;
+    margin-left: 145px;
     
     
 }
 
+.form-select{
+    padding: auto;
+    width: 20px;
+}
 
 aside img:hover{
     transform: scale(1.05);
@@ -69,11 +83,13 @@ footer{
     text-align: start;
 }
 h2{
-    padding-right: 20px;
+    border: 2px white solid;
+    padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 .derechos{
+    padding: 20px;
     margin: 10px;
     border-radius: 1px, black;
     text-align: center;
