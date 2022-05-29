@@ -10,21 +10,9 @@ header{
     color: floralwhite;
     text-decoration: none;
 }
-.h1{
-    align-items: center;
-    font-family: fantasy;
-    text-align: center;
-    margin: auto;
-}
-
-.buzoclasictitulo{
+.titulodeluxers{
     font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border: 1px rgb(0, 0, 0) solid;
-    padding: 30px;
-    color: white;
-    text-align: start;
-    background-color: rgb(32, 32, 32);
+
 }
 
 aside{
@@ -32,16 +20,27 @@ aside{
 
 }
 
-aside .ropa1{
-    padding: 0px;
-    width: 350px;
+aside .buzoconestampa{
+    margin: auto;
+    display: block;
+    width: 400px;
     transition: all 500ms ease;
-    margin-left: 145px;
-    
+    border: solid white 1px;
+    align-items: center;
+    justify-content: center;
 }
-aside .ropa1 .img{
+.buzoclasictitulo{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 30px;
+    color: white;
     text-align: center;
+    background-color: rgb(32, 32, 32);
 }
+
+
+
+
 aside img:hover{
     transform: scale(1.05);
     cursor: pointer;
@@ -60,4 +59,11 @@ aside img:hover{
     margin: 10px;
     border-radius: 1px, black;
     text-align: center;
+}
+
+
+@media (max-width: 600px){
+    .buzoconestampa{
+        flex-direction: column;
+    }
 }
