@@ -4,55 +4,41 @@ header{
     color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.inicio1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-    color: floralwhite;
-    text-decoration: none;
-}
 .titulodeluxers{
     font-size: 50px;
 
 }
 
-aside{
-    background-color: antiquewhite;
 
-}
 
-aside .buzoconestampa{
-    margin: auto;
-    display: block;
-    width: 400px;
-    transition: all 500ms ease;
-    border: solid white 1px;
-    align-items: center;
-    justify-content: center;
-}
 .buzoclasictitulo{
     font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 30px;
     color: white;
     text-align: center;
     background-color: rgb(32, 32, 32);
 }
 
-
+aside{
+    background-color: antiquewhite;
+}
+aside img{
+    margin: auto;
+    display: block;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+}
 
 
 aside img:hover{
-    transform: scale(1.05);
+    transform: scale(1.10);
     cursor: pointer;
 }
 
-.BOTONVER{
-    width: 300px;
-    margin: 1rem auto;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-}
 .derechos{
     text-align: center;
     padding: 50px;

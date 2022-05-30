@@ -21,12 +21,27 @@ header{
     font-size: 50px;
 
 }
+button {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a0321;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
+button :hover{
+    text-decoration: none;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px #1a0321, 0 0 40px;
+    transition-delay: 0.1s;
+}
 
 
 .Titulosdeimagenes{
     text-decoration:none;
-
+    text-align: center;
     padding: 20px;
     font-size: 15px;
     background-color: rgb(46, 46, 46);
@@ -68,12 +83,26 @@ aside img:hover{
     transform: scale(1.05);
     cursor: pointer;
 }
+
+
 select{
     max-width: 400px;
 
 
 }
-
+section{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    transition: all 4s ease-in-out;
+}
+.botondeinstagram :hover{
+    transform: scale(1.2);
+}
 .futer{
     max-height: 100%;
     max-width: 100%;

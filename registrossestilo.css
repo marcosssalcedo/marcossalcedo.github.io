@@ -1,4 +1,11 @@
+body{
+    padding: 100px;
+    display: flexbox;
+}
+
+
 header{
+    padding-bottom: 100px ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
+    text-align: start;
 }
